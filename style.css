@@ -1,0 +1,599 @@
+header {
+    background-color: white;
+    display: flex;
+    padding: 0;
+    height: 91;
+    justify-content: space-between;
+    padding-left: 135px;
+    padding-right: 150px;
+}
+
+.menu {
+    display: flex;
+}
+
+.box-1 {
+    width: 109px;
+    height: 40px;
+    padding-top: 13px;
+}
+
+.box-2 ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 19px 10px 0;
+    font-size: 12px;
+    border-right: 1px solid #EBEBEB;
+    margin: 0;
+}
+
+.box-2 {
+    display: flex;
+    align-items: center;
+}
+
+.box-2 li {
+    list-style-type: none;
+    margin-left: 40px;
+    line-height: 22px;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #6C6C6C;
+    letter-spacing: 2px;
+}
+
+.box-2 .active {
+    color: #AC1313;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    padding: 10px 19px 10px 0;
+    font-size: 14px;
+    margin: 0 0 0 16px;
+}
+
+.cart a {
+    text-transform: capitalize;
+    color: #000000;
+    letter-spacing: 0;
+    font-family: 'Libre Franklin';
+}
+
+.cart-img {
+    height: 22px;
+    margin-right: 5px;
+}
+
+body {
+    margin: 0px;
+    width: 1440px;
+    height: 708px;
+    font-family: 'Poppins';
+}
+
+.pompeo {
+    color: #D77474;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.porcelain {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.porcelain p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.and {
+    color: #AC1313;
+    font-family: 'Playfair Display';
+    line-height: 68px;
+    font-size: 68px;
+    position: absolute;
+    font-weight: 400;
+}
+
+.and-page1 {
+    top: 25px;
+    right: 14px;
+}
+
+.and-page2 {
+    top: -36px;
+    right: 154px;
+}
+
+.unique {
+    font-family: 'Libre Franklin';
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 14px;
+    margin-bottom: 51px;
+    white-space: nowrap;
+}
+
+.shop {
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #AC1313;
+    color: #FFFFFF;
+    line-height: 22px;
+    text-transform: uppercase;
+    width: 201px;
+    height: 62px;
+    border: none;
+}
+
+.page1 {
+    display: flex;
+    align-items: center;
+    padding: 127px 33px 136px 144px;
+    background-image: url(img/background.png);
+}
+
+.block-1 {
+    position: relative;
+}
+
+.porcelain2 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    position: relative;
+    margin-bottom: 63px;
+    text-align: center;
+}
+
+.space {
+    word-spacing: 57px;
+}
+
+.product2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hand-craft {
+    color: #DBDBDB;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    letter-spacing: 1px;
+    position: absolute;
+}
+
+.hand-craft-1 {
+    font-size: 18px;
+    left: 76px;
+    top: 291px;
+}
+
+.hand-craft-2 {
+    transform: rotate(180deg);
+    font-size: 20px;
+    top: 363px;
+    right: 49px;
+}
+
+.hand-craft-3 {
+    left: 56px;
+}
+
+.vases {
+    background-image: url(img/circleyell.png);
+}
+
+.vases-mugs-plates {
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mugs {
+    background-image: url(img/circleorange.png);
+    margin: 0 150px 0 150px;
+}
+
+.plates {
+    background-image: url(img/circlered.png);
+}
+
+.hand-page2>span {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.handbox-p2 {
+    margin-right: 142px;
+}
+
+.lorem {
+    color: #6C6C6C;
+    font-size: 14px;
+    width: 400;
+    line-height: 24px;
+    margin-top: 26px;
+    font-family: 'Libre Franklin';
+}
+
+.lorem-p2 {
+    height: 96px;
+    width: 501px;
+}
+
+.page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    padding-bottom: 151px;
+    position: relative;
+    padding-top: 120px;
+}
+
+.block2-page2 {
+    display: flex;
+    margin-bottom: 87px;
+    justify-content: center;
+}
+
+.block-1-page2 {
+    margin-bottom: 63px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block3-page2 {
+    display: flex;
+    margin-top: 0;
+}
+
+.rectangle {
+    background-color: #F5F5F5;
+    width: 500px;
+    height: 220px;
+    position: relative;
+}
+
+.vase-p3 img {
+    position: absolute;
+    left: calc(50% - 250px/2);
+    top: calc(50% - 509px/2);
+}
+
+.rectangle-vase {}
+
+.vase2-p3 {
+    position: absolute;
+    left: calc(50% - 350px/2);
+    top: calc(50% - 417px/2);
+}
+
+.block1-p3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 220px;
+}
+
+.block2-p3 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.page3 {
+    padding-right: 210px;
+    padding-left: 144px;
+    padding-bottom: 119px;
+    padding-top: 221px;
+    position: relative;
+}
+
+.lorem-p3 {
+    width: 388px;
+    height: 96px;
+    margin-bottom: 27px;
+}
+
+.view>a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+.border {
+    margin: 0;
+    border: none;
+    height: 1px;
+    background-color: #EBEBEB;
+}
+
+.text-gold {
+    margin-right: 112px;
+}
+
+.page4 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 121px 144px 120px 144px;
+    flex-direction: column;
+}
+
+.page4-block2 {
+    margin-bottom: 61px;
+}
+
+.online-store {
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+.block2-part1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.block2-part2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.font-p4 {
+    color: #6C6C6C;
+    font-family: 'Libre Franklin';
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.prise-p4 {
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.gallery1 {
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.button {
+    margin: 0 auto;
+}
+
+.page5-block1 {
+    background-image: url(img/page5-plates.png);
+    padding-bottom: 120px;
+    padding-left: 144px;
+    padding-top: 121px;
+    background-repeat: no-repeat;
+}
+
+.ready-to-start {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+.page5-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.font-p5 {
+    width: 421px;
+    height: 48px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'Libre Franklin';
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 13px;
+    margin-bottom: 30px;
+}
+
+.font-p5 a {
+    color: #AC1313;
+    text-transform: none;
+    letter-spacing: 0;
+    text-decoration: underline;
+}
+
+.pompeo-p5 {
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.page5-block2 {
+    padding-top: 122px;
+    padding-left: 432px;
+    padding-bottom: 162px;
+    padding-right: 431px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.latest-news {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.latest-news1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.subscribe {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 175px;
+    height: 45px;
+    font-family: 'Lato';
+}
+
+.block-latest {
+    margin-bottom: 76px;
+    position: relative;
+}
+
+.imput {
+    display: flex;
+    flex-direction: row;
+}
+
+.imput1 {
+    width: 320px;
+    height: 45px;
+    border: 1px solid #EBEBEB;
+    color: #A1A1A1;
+    font-family: 'Lato';
+    padding-left: 30px;
+}
+
+.imput1::placeholder {
+    color: #A1A1A1;
+    font-family: 'Lato';
+}
+
+.and-page5 {
+    top: -33px;
+    left: 244px;
+}
+
+.sign-up {
+    margin-top: 40px;
+    color: #A1A1A1;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Lato';
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+}
+
+.fioletowy {
+    width: 13px;
+    height: 13px;
+    background-color: #8534FF;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.hand-page5 {
+    top: 215px;
+    font-size: 15px;
+}
+
+.latest {
+    margin-right: 57px;
+}
+
+.page5-block3 {
+    padding-top: 107px;
+    padding-bottom: 70px;
+    padding-left: 257px;
+    padding-right: 275px;
+    background-color: #FBFBFB;
+}
+
+.text-font-pompeo {
+    font-family: 'Pacifico';
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.text-font1 {
+    font-family: 'Libre Franklin';
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+
+.p5-block1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.email {
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.page5-letter {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.p5-block2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #F8F8F8;
+    padding-top: 33px;
+    padding-bottom: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.p5-temple {
+    color: #6C6C6C;
+    line-height: 22px;
+    font-size: 12px;
+    font-family: 'Libre Franklin';
+    margin-right: 2px;
+    white-space: pre-wrap;
+}
+
+.p5-temple1 {
+    color: #000000;
+}
